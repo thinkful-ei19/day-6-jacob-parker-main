@@ -33,6 +33,10 @@ const store = (function() {
     this.items = this.items.filter(item => item.id !== id);
   }
 
+  function toggleCheckedFilter() {
+    
+  }
+
   let items = [
     { id: cuid(), name: 'apples', checked: false },
     { id: cuid(), name: 'oranges', checked: false },
