@@ -8,8 +8,8 @@ const store = (function() {
     { id: cuid(), name: 'milk', checked: true },
     { id: cuid(), name: 'bread', checked: false }
   ];
-  let hideCheckedItems = {hideCheckedItems: false};
-  let searchTerm = {searchTerm: ''};
+  let hideCheckedItems = false;
+  let searchTerm = '';
   return {
     items, hideCheckedItems, searchTerm
   };
